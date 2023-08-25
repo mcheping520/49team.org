@@ -177,10 +177,30 @@
             
         </div>
         <footer class="article-footer">
-            <a data-url="http://49team.org/2023/08/24/hello-world/" data-id="cllpb28oa0001xoo84iec88ce" data-title="Hello World"
+            <a data-url="http://49team.org/2023/08/24/hello-world/" data-id="cllpvreuj0003dso8hvj0847n" data-title="Hello World"
                class="article-share-link">分享</a>
             
             
+            
+                <a href="/2023/08/24/hello-world/#comments" class="article-comment-link">
+                    <span class="post-comments-count twikoo-comment-count" data-path="/2023/08/24/hello-world/"
+                          itemprop="commentCount"></span>
+                    留言
+                </a>
+                <script>
+                    twikoo.getCommentsCount({
+                          envId: 'https://twikoo.49team.org',
+                          region: 'Asia',
+                          urls: [
+                            '/2023/08/24/hello-world/'
+                          ],
+                          includeReply: false
+                      }).then(function (res) {
+                          document.querySelector('.twikoo-comment-count').innerText = res[0].count;
+                      }).catch(function (err) {
+                          console.error(err);
+                      });
+                </script>
             
             
 
@@ -188,6 +208,25 @@
     </div>
     
         
+    <nav id="article-nav" class="wow fadeInUp">
+        
+            <div class="article-nav-link-wrap article-nav-link-left">
+                
+                    <img data-src="../images/jeena&#39;sworld.jpg" data-sizes="auto" alt="Jeena的世界"
+                         class="lazyload">
+                
+                <a href="/2023/08/25/Jeena%E7%9A%84%E4%B8%96%E7%95%8C/"></a>
+                <div class="article-nav-caption">前一篇</div>
+                <h3 class="article-nav-title">
+                    
+                        Jeena的世界
+                    
+                </h3>
+            </div>
+        
+        
+    </nav>
+
 
     
 </article>
@@ -196,6 +235,8 @@
 
 
 
+
+     <div id="comments" class="tcomment"></div>
 
 
 
@@ -214,7 +255,7 @@
         <div class="sidebar-state">
             <div class="sidebar-state-article">
                 <div>文章</div>
-                <div class="sidebar-state-number">1</div>
+                <div class="sidebar-state-number">2</div>
             </div>
             <div class="sidebar-state-category">
                 <div>分类</div>
@@ -222,7 +263,7 @@
             </div>
             <div class="sidebar-state-tag">
                 <div>标签</div>
-                <div class="sidebar-state-number">0</div>
+                <div class="sidebar-state-number">1</div>
             </div>
         </div>
         <div class="sidebar-social">
@@ -277,6 +318,13 @@
 
     
         
+    <div class="widget-wrap wow fadeInRight">
+        <h3 class="widget-title">标签云</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/jeena/" style="font-size: 10px;">jeena</a>
+        </div>
+    </div>
+
 
     
         
@@ -313,10 +361,10 @@
             
                 <div>
                     <span class="icon-brush"></span>
-                    75
+                    79
                     &nbsp;|&nbsp;
                     <span class="icon-coffee"></span>
-                    00:01
+                    00:02
                 </div>
             
             
@@ -343,7 +391,7 @@
         <div class="sidebar-state">
             <div class="sidebar-state-article">
                 <div>文章</div>
-                <div class="sidebar-state-number">1</div>
+                <div class="sidebar-state-number">2</div>
             </div>
             <div class="sidebar-state-category">
                 <div>分类</div>
@@ -351,7 +399,7 @@
             </div>
             <div class="sidebar-state-tag">
                 <div>标签</div>
-                <div class="sidebar-state-number">0</div>
+                <div class="sidebar-state-number">1</div>
             </div>
         </div>
         <div class="sidebar-social">
@@ -438,6 +486,17 @@
 
 
 
+
+    
+<script src="https://unpkg.com/twikoo@1.6.16/dist/twikoo.all.min.js"></script>
+
+    <script>
+        twikoo.init({
+            envId: 'https://twikoo.49team.org',
+            el: '.tcomment',
+            region: 'Asia',
+        })
+    </script>
 
 
 
